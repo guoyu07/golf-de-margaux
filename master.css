@@ -1,0 +1,266 @@
+/* Golf De Margaux CSS */
+
+* {
+border:0;
+margin:0;
+padding:0;
+}
+
+body {
+color:#333;
+font-family:"Trebuchet MS", Arial, Verdana, Helvetica, sans-serif;
+font-size:80%;
+margin:auto;
+width:960px;
+}
+
+/* GENERIQUES */
+h1 {
+color:#96C909;
+font-size:20px;
+}
+
+h2 {
+color:#1A397F;
+font-size:16px;
+margin-top:1em;
+}
+
+li {
+list-style-type:none;
+}
+
+p {
+margin-bottom:1em;
+}
+
+/* =header */
+#header {
+background:url(images/header.gif);
+height:320px;
+margin:auto;
+margin-right:100px;
+width:900px;
+}
+
+/* =navbar */
+#navbar {
+background:url(images/navbar.gif);
+height:20px;
+margin:auto;
+overflow:hidden;
+position:relative;
+right:-52px;
+text-indent:290486px;
+top:-140px;
+width:550px;
+}
+
+#navbar li {
+display:inline; /* bug IE */
+}
+
+#navbar a {
+background-image:url(images/navbar.gif);
+display:block;
+height:20px;
+position:absolute;
+text-align:center;
+}
+
+#nav01 { background-position:0 0; left:0; width:85px; } /* bug IE il faut ajouter bg-pos et left et les mettre à 0 */
+#nav02 { background-position:-85px 0; left:85px; width:104px; }
+#nav03 { background-position:-189px 0; left:189px; width:126px; }
+#nav04 { background-position:-315px 0; left:315px; width:75px; }
+#nav05 { background-position:-390px 0; left:390px; width:72px; }
+#nav06 { background-position:-462px 0; left:462px; width:88px; }
+
+#nav01:hover { background-position:0 -20px; }
+#nav02:hover { background-position:-85px -20px; }
+#nav03:hover { background-position:-189px -20px; }
+#nav04:hover { background-position:-315px -20px; }
+#nav05:hover { background-position:-390px -20px; }
+#nav06:hover { background-position:-462px -20px; }
+
+/* =main */
+#main {
+margin:auto;
+padding:10px;
+position:relative;
+top:-40px;
+width:800px;
+}
+
+#main h1 {
+background:url(images/icon01.gif) no-repeat;
+border-bottom:1px dashed #ddd;
+margin:1em 0;
+text-indent:32px;
+}
+
+/* =footer */
+#footer {
+background:url(images/footer.gif);
+color:#fff;
+height:50px;
+margin:0 auto;
+padding:0;
+text-align:center;
+width:800px;
+}
+
+#footer a {
+border-bottom:1px dashed #fff;
+color:#fff;
+text-decoration:none;
+}
+
+#footer a:hover {
+border-bottom:1px solid #fff;
+}
+
+/* ZONES TEXTUELLES */
+/* les cours */
+.cours {
+background:#fff;
+border-collapse:collapse;
+margin:10px;
+padding:2px 8px;
+}
+
+.cours .alt {
+background:#D1D7E5;
+}
+
+.cours th {
+color:#96C909;
+text-align:left;
+}
+
+.cours td {
+border:1px solid #999;
+padding:2px 16px;
+}
+
+/* les stages */
+.stage {
+background:url(images/grad.gif);
+border:1px solid #eee;
+margin-bottom:10px;
+padding:0 0 10px 10px;
+width:480px;
+}
+
+.prixstage {
+background:#D1D7E5;
+display:block;
+padding:4px;
+float:right;
+}
+
+.stage li {
+margin-left:20px;
+}
+
+/* les dates */
+#dates {
+vertical-align:top;
+}
+
+.dates li {
+margin-left:40px;
+}
+
+/* les compétitions */
+.compet {
+border-bottom:1px solid #96C909;
+margin:1em 2em;
+width:480px;
+}
+
+/* les tarifs */
+.tarifs {
+background:#E4F0B1;
+border-collapse:collapse;
+clear:both;
+margin:10px;
+}
+
+.tarifs .alt {
+background:#D2E68F;
+}
+
+.tarifs tr {
+border-bottom:1px solid #5A3D1B;
+
+}
+
+.tarifs th {
+color:#333;
+padding:2px 30px;
+text-align:center;
+}
+
+.tarifs td {
+padding:8px 30px;
+text-align:center;
+}
+
+/* le formulaire de contact */
+#contact {
+padding:0 20px 20px 20px;
+width:380px;
+}
+
+#titre-form {
+font-size:2em;
+font-weight:bold;
+padding:10px 0;
+}
+
+fieldset {
+border:1px solid #96c909;
+margin-bottom:1em;
+padding:10px;
+}
+
+#coordonnees p {
+text-align:right;
+}
+
+#coordonnees input {
+margin:0 40px 0 20px;
+}
+
+legend {
+border:1px solid #96c909;
+font-weight:bold;
+padding:0 10px;
+}
+
+input, select, textarea {
+border:1px solid #1a397f;
+}
+
+input {
+float:right;
+}
+
+input:hover, input:active {
+background:#D1D7E5;
+}
+
+#valid {
+background:#fff;
+border:3px double #96c909;
+padding:5px 10px;
+}
+
+/* flash */
+#flash-intro {
+float:right;
+}
+
+#flash-pub {
+text-align:center;
+}
